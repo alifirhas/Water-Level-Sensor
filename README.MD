@@ -39,7 +39,12 @@ Beberapa barang yang harus disiapkan
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+### Referensi
+Referensi yang digunakan selama pengerjaan project
+- [Arduino - Controls Pump | Arduino Tutorial](https://arduinogetstarted.com/tutorials/arduino-controls-pump)
+- [Arduino Water Level Sensor Tutorial](https://www.youtube.com/watch?v=n7WRi5U5lQk&ab_channel=TheGeekPub)
+- [Connecting Relay to Arduino Proteus Simulation Tutorial # 6](https://www.youtube.com/watch?v=amD530DC0FY&ab_channel=NovaTechnologies)
+- [water sensor simulation in Proteus // water sensor projects // water sensor with Arduino and lcd](https://www.youtube.com/watch?v=PHysfQ8be-M&ab_channel=EInfotainment)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
