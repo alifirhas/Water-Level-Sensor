@@ -2,8 +2,8 @@
 int waterPin = A5;  // Pin S di pin
 int relayPin = 13;  // Pin di rellay
 
-int waterVal = 0;     
-
+int waterVal = 0;
+int lamaHidup = 180000; // Waktu hidup 3 menit
 
 void setup() {
   // put your setup code here, to run once:
@@ -40,12 +40,12 @@ void loop() {
   else if(waterVal>300 && waterVal<=330){
     Serial.println("Water Level: Medium");
     digitalWrite(relayPin, HIGH);
-    delay(1000); // ! Nilai delay bisa disesuaikan dengan debit air keluar
+    delay(lamaHidup); // ! Nilai delay bisa disesuaikan dengan debit air keluar
   }
   else if(waterVal>330){
     Serial.println("Water Level: High");
     digitalWrite(relayPin, HIGH);
-    delay(1000); // ! Nilai delay bisa disesuaikan dengan debit air keluar
+    delay(lamaHidup); // ! Nilai delay bisa disesuaikan dengan debit air keluar
   }
   
   delay(10);
