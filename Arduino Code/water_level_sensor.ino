@@ -3,7 +3,7 @@ int waterPin = A5;  // Pin S di pin
 int relayPin = 13;  // Pin di rellay
 
 int waterVal = 0;
-int lamaHidup = 180000; // Waktu hidup 3 menit
+unsigned long lamaHidup = 180000; // Waktu hidup relay 3 menit
 
 void setup() {
   // put your setup code here, to run once:
